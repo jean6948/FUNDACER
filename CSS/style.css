@@ -1,0 +1,85 @@
+html{
+    background-color: rgb(254, 255, 254);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+.container{
+    width: 30vh;
+    height: 100vh;
+    background: linear-gradient(to bottom,#FAD7A1,#E96D71)
+}
+
+.container .logo{
+    width: 100%;
+    height: 25%;
+}
+
+.container .logo img{
+    width: 150%;
+    height: 150%;
+    margin-left: -7vh;
+    margin-top: -5vh;
+}
+
+.container .links{
+    width: 100%;
+    height: 50%;
+}
+
+.container .links ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container .links ul a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.container .links ul a li{
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.container .links ul a li:hover{
+    color: rgb(250, 250, 250);
+}
+
+.container .inf_contacto{
+    width: 100%;
+    height: 25%;
+}
+
+.container .inf_contacto .text p{
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    font-size: .8rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container .inf_contacto .social{
+    font-size: 4vh;
+    text-align: center;
+}
+
+.container .inf_contacto .social a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
