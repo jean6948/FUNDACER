@@ -18,6 +18,14 @@ header{
     padding: 0;
 }
 
+
+main{
+    width: 100em;
+    height: 100em;
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     margin: 0;
     margin-right: 0;
@@ -39,33 +47,33 @@ header{
     margin-top: -5vh;
     }
 
-.container .links{
+.container .nav{
     width: 100%;
     height: 50%;
 }
 
-.container .links ul{
+.container .nav ul{
     list-style: none;
     width: 100%;
     height: 100%;
     padding: 0 1em;
-    margin: 0;
+    margin: 0;  
 }
 
-.container .links ul a{
-    text-decoration: none;
-}
-
-.container .links ul a li{
+.container .nav ul li{
     margin: 0;
     padding: 15px;
+}
+
+.container .nav ul li a{
+    text-decoration: none;
     font-size: 1rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     color: black;
 }
 
-.container .links ul a li:hover{
+.container .nav ul li a:hover{
     color: rgb(250, 250, 250);
 }
 
